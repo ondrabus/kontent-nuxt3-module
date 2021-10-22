@@ -1,0 +1,53 @@
+{
+  "name": "kontent-nuxt3-module",
+  "version": "1.0.0-release",
+  "description": "Enables you to use Kontent by Kentico with Nuxt3.",
+  "main": "lib/plugin.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc && rollup -c && rimraf out-tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kentico/kontent-nuxt3-module"
+  },
+  "keywords": [
+    "nuxt",
+    "kontent",
+    "kentico",
+    "vuejs",
+    "vue3",
+    "nuxtjs",
+    "nuxt3"
+  ],
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "Ondrej Polesny",
+  "contributors": [
+    {
+      "name": "Ondrej Polesny <ondrejp@kentico.com>"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kentico/kontent-nuxt3-module/issues"
+  },
+  "homepage": "https://github.com/Kentico/kontent-nuxt3-module#readme",
+  "dependencies": {
+    "@kentico/kontent-delivery": "^11.0.0-5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@open-wc/building-rollup": "^2.0.1",
+    "deepmerge": "^4.2.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.58.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "typescript": "^4.4.4"
+  }
+}
