@@ -1,4 +1,6 @@
 [![NPM](https://nodei.co/npm/kontent-nuxt3-module.png?mini=true)](https://npmjs.org/package/kontent-nuxt3-module)
+[![Nuxt3 Sample App](https://img.shields.io/badge/Nuxt3%20Kontent%20Sample%20App-LIVE-green.svg)](https://github.com/ondrabus/nuxt3-starter-kontent-lumen)
+
 
 # Nuxt3 module for Kontent by Kentico
 Add content from the headless CMS [Kontent by Kentico](https://kontent.ai) to your Nuxt3 app.
