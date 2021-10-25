@@ -2,12 +2,12 @@
   "name": "kontent-nuxt3-module",
   "version": "1.0.0-release",
   "description": "Enables you to use Kontent by Kentico with Nuxt3.",
-  "main": "lib/plugin.ts",
+  "main": "dist/module.js",
   "directories": {
-    "lib": "lib"
+    "lib": "dist"
   },
   "scripts": {
-    "build": "rimraf dist && tsc && rollup -c && rimraf out-tsc"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,7 @@
     "nuxt3"
   ],
   "files": [
-    "lib",
-    "dist"
+    "dist/*.js"
   ],
   "author": "Ondrej Polesny",
   "contributors": [
@@ -37,17 +36,23 @@
     "url": "https://github.com/Kentico/kontent-nuxt3-module/issues"
   },
   "homepage": "https://github.com/Kentico/kontent-nuxt3-module#readme",
-  "dependencies": {
-    "@kentico/kontent-delivery": "^11.0.0-5"
-  },
   "devDependencies": {
     "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@kentico/kontent-delivery": "^11.0.0-5",
+    "@nuxt/kit": "^0.6.4",
     "@open-wc/building-rollup": "^2.0.1",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "babel-cli": "^6.26.0",
     "deepmerge": "^4.2.2",
+    "nuxt3": "^3.0.0-27247485.fb4359e",
     "rimraf": "^3.0.2",
     "rollup": "^2.58.0",
-    "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-commonjs": "^10.1.0",
+    "tslib": "^2.3.1",
     "typescript": "^4.4.4"
   }
 }
