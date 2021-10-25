@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kentico/kontent-nuxt3-module"
+    "url": "https://github.com/ondrabus/kontent-nuxt3-module"
   },
   "keywords": [
     "nuxt",
@@ -33,9 +33,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kentico/kontent-nuxt3-module/issues"
+    "url": "https://github.com/ondrabus/kontent-nuxt3-module/issues"
   },
-  "homepage": "https://github.com/Kentico/kontent-nuxt3-module#readme",
+  "homepage": "https://github.com/ondrabus/kontent-nuxt3-module#readme",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
