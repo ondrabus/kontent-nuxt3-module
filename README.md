@@ -67,6 +67,8 @@ export default defineConfig({
 })
 ```
 
+Don't forget to use **v11 and newer** of the Kontent Delivery JS SDK.
+
 ## Sample app
 You can find the [Nuxt3 sample Lumen app here](https://github.com/ondrabus/nuxt3-starter-kontent-lumen). Among others, it shows how to work with stores and dynamic routing.
 
